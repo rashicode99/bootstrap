@@ -1,0 +1,13 @@
+# A variable called name to accept the input of what is your name. "\n" is used to go to a different line.
+name = input("What is your name?\n")
+# print command to display greetings on the screen. {} these curly braces displays the value in the format function.
+#format takes the valur in variable name as a parameter.
+print ("Hi there, {}!". format(name))
+# print command to display the purpose of this code
+print ("here is a knock knock joke, {}:".format(name))
+# joke starts. get accepts the input for string knock knock
+get= input("knock knock!!\n")
+# gett accepts the input for string lettuce
+gett= input("lettuce.\n")
+# last display line of the joke
+print("Lettuce in, its cold out here.")
